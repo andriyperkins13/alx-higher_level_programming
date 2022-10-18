@@ -1,5 +1,11 @@
 #!/usr/bin/python3
+""" Locked class example """
+
+
 class LockedClass:
-    """A locked class that only lets the user dynamically create the instance
-    attribute 'first_name'"""
+    """ Locked class """
     __slots__ = ['first_name']
+
+    def __init__(self):
+        """ Instance intallization """
+        pass
